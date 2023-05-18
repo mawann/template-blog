@@ -4,7 +4,7 @@ Cara menggunakan file-file ini, ketik:
 git clone https://github.com/mawann/template-blog  
 
 Untuk Nginx Server Block, kodenya adalah:
-
+```
 server {  
   listen      80;  
   listen      [::]:80;  
@@ -13,6 +13,6 @@ server {
   server_name domain.com www.domain.com;  
 
   error_log   /var/log/nginx/error.domain.com.log error;  
-}  
-
+}
+```
 Dah. Gitu saja.
