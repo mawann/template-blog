@@ -20,4 +20,7 @@ server {
   }
 }
 ```
+Simpan di `/etc/nginx/conf.d/domain.com.conf`  
+Setelah itu reload Nginx dengan perintah `nginx -s reload`  
+
 Dah. Gitu saja.
